@@ -1,0 +1,151 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0;
+    /* display: flex;
+    flex-direction: column; */
+}
+#hero{
+    background-image: url(Assets/Images/Untitled\ design.png);
+    height: 31.25rem;
+    position: relative;
+
+}
+#hero h1{
+    font-size: 5rem;
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+    color: #A43702;
+    margin: auto;
+    padding: 20px;
+    /* position: absolute;
+    top: 5rem;
+    left: 23.125rem; */
+    font-family: 'Righteous', cursive;
+}
+#hero p{
+    font-size: 1.5rem;
+    color: #A43702;
+    /* position: absolute;
+    top: 21.375rem;
+    left: 25rem; */
+    padding: 5.625rem;
+    padding-top: 2.5rem;
+    margin: auto;
+    width: 27.625rem;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+}
+#hero img{
+    border-radius: 50%;
+    /* position: absolute;
+    top: 11.75rem;
+    left: 33.5625rem; */
+   
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 8.5625rem;
+    border: 0.3125rem double #ffffff ;
+}
+body{
+    padding: 0;
+    margin: 0;
+
+}
+#work{
+    /* background-color: #ef9cbeba; */
+    background-color: #E8A9A9;
+}
+#work .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5rem;
+}
+#work h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    color: #A43702;
+    padding: 3.125rem 0px;
+    font-family: 'Righteous', cursive;
+    font-weight: 60;
+    
+}
+#work a{
+    display: flex;
+    justify-content: center;
+}
+#work img{
+    width: 18.75rem;
+    border: 0.1875rem solid white;
+}
+#footer{
+    background-color: #E8A9A9;
+    display: flex;
+}
+#contact h1{
+    margin: 0;
+    color: #A43702;
+    text-align: center;
+    padding-top: 6.25rem;
+    padding-bottom: 0.625rem;
+    font-size: 3rem;
+    font-family: 'Righteous', cursive;
+    font-weight: 60;
+    
+}
+#contact .container{
+    display: flex;
+
+}
+#contact svg{
+    width: 1.875rem;
+    height: 3.75rem;
+    padding:  1.25rem 4.5625rem;
+
+}
+#contact p{
+    color:#A43702;
+    font-size: 1.2rem;
+    padding: 1.25rem 7.8125rem;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+}
+#skills{
+    width: 37.5rem;
+}
+#skills h1{
+    font-size: 3rem;
+    margin: 0;
+    color: #A43702;
+    padding-top: 6.875rem;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-weight: 60;
+}
+#skills p{
+    color:#A43702;
+    font-size: 1.2rem;
+    padding: 1.25rem 7.8125;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: #A43702;
+}
+@media(max-width:600px){
+    #footer{
+        display: flex;
+        flex-direction: column;
+    }
+    #work .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
