@@ -7,9 +7,10 @@
     flex-direction: column; */
 }
 #hero{
-    background-image: url(Assets/Images/Untitled\ design.png);
+     background: url('Assets/Images/Untitled design.png') no-repeat center center ;
     height: 31.25rem;
     position: relative;
+    background-size: cover;
 
 }
 #hero h1{
